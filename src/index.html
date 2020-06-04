@@ -117,9 +117,45 @@
     </div>
   </section>
   
-  <section>
+  <section class="catalog">
     <div class="container">
       <h2 class="title">каталог пульсометров</h2>
+      <ul class="catalog__tabs">
+        <li class="catalog__tab catalog__tab_active"><div>Для фитнеса</div></li>
+        <li class="catalog__tab"><div>для бега</div></li>
+        <li class="catalog__tab"><div>для триатлона</div></li>
+      </ul>
+
+      <div class="catalog__content">
+        <div class="catalog-item"> <!--Согласно БЭМу создали независимый блок-->
+          <div class="catalog-item__wrapper">
+            <div class="catalog-item__content catalog-item__content_active">
+              <img src="img/pulsometr.png" alt="pulsometr" class="catalog-item__img">
+              <h3 class="catalog-item__subtitle">Пульсометр Polar FT1</h3>
+              <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+              <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+            </div>
+            <div class="catalog-item__list">
+              hello world
+            </div>
+          </div>
+          <hr>
+
+            <div class="catalog-item__footer">
+              <div class="catalog-item__prices">
+                <div class="catalog-item__old-price">4 750 руб.</div>
+                <div class="catalog-item__price">4 500 руб.</div>
+              </div>
+              <button class="button button_mini">Купить</button>
+            </div>
+        </div>
+      </div>
+      <div class="catalog__content">
+
+      </div>
+      <div class="catalog__content">
+
+      </div>
     </div>
   </section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
