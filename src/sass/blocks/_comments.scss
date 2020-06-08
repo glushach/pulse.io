@@ -1,0 +1,55 @@
+.comments {
+  &__content {
+    margin: 70px 0px 70px 0px;
+    
+  }
+
+  .item {
+    &__row {
+    display: flex;
+    margin: 0px -30px; /*Флекс контейнер раздвигаем на -30рх*/
+    margin-bottom: 100px;
+    &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+    &__column {
+      padding: 0px 30px; /*Колонки во флекс контейнере сдвигает на 30рх*/
+    }
+    &__column img {
+      width: 169px;
+      height: 169px;
+      border-radius: 100%;
+    }
+    &__title {
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 18px;
+      text-align: left;
+      color: #0d0d0d;
+    }
+    &__subtitle {
+      margin-bottom: 19px;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 14px;
+      text-align: left;
+      color: #646464;
+    }
+    &__text p {
+      margin-bottom: 26px;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.5;
+      text-align: left;
+      color: #0d0d0d;
+      text-align: justify;
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    } 
+  }
+}
+
+
