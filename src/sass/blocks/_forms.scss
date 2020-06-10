@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 300px;
   input {
-    width: 300px;
+    width: 300px; /*Во избежании деформации на Мозилла андроид инпут телефон*/
     height: 50px;
     border-radius: 5px;
     color: #fff;
