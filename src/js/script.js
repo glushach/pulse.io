@@ -122,5 +122,22 @@ $(document).ready(function(){
       });
       return false;
   });
+
+    //Регулирование появления кнопки scrolla страници
+    $(window).scroll(function() {
+      if($(this).scrollTop() > 1600) {
+        $('.pageup').fadeIn('slow');
+      } else {
+        $('.pageup').fadeOut('slow');
+      }
+    });
+    //плавный скролл страницы, после нажатия кнопки scrolla 
+    $("a[href^='#']").click(function(){
+      const _href = $(this).attr("href");
+      $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+      return false;
+    });
+    
+    new WOW().init();
 });
 

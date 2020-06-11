@@ -11,11 +11,12 @@
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/tiny-slider.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-  <section class="promo">
+  <section id="up" class="promo">
     <div class="container">
       <header class="header">
         <a href="#" class="header__logo">
@@ -69,7 +70,7 @@
           </div>
         </div>
         <div class="advantages__block">
-          <img src="icons/advantages/heart.png" alt="heart">
+          <img src="icons/advantages/heart.png" alt="heart" class="advantages__block_animated">
           <div class="advantages__promo">
             <h3 class="advantages__header">Заботимся о здоровье</h3>
             <div class="advantages__text">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью
@@ -397,7 +398,7 @@
     <div class="container">
       <h2 class="title">отзывы клиентов</h2>
       <div class="comments__content">
-        <div class="item__row">
+        <div class="item__row fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
           <div class="item__column">
             <img src="img/feed_1.png" alt="feed_1">
           </div>
@@ -411,7 +412,7 @@
             </div>
           </div>
         </div>
-        <div class="item__row">
+        <div class="item__row fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
           <div class="item__column">
             <img src="img/feed_2.png" alt="feed_2">
           </div>
@@ -424,7 +425,7 @@
             </div>
           </div>
         </div>
-        <div class="item__row">
+        <div class="item__row fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
           <div class="item__column">
             <img src="img/feed_3.png" alt="feed_3">
           </div>
@@ -489,8 +490,9 @@
       <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
     </div>
   </div>
-
-
+  <a href="#up" class="pageup">
+    <img src="icons/chevron-circle-up-solid.svg" alt="up">
+  </a>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
@@ -498,6 +500,8 @@
 
   <!-- <script src="js/jquery.validate.min.js"></script> -->
   <script src="js/jquery.maskedinput.min.js"></script>
+
+  <script src="js/wow.min.js"></script>
 
   <script src="js/script.js"></script>
 

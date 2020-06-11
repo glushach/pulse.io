@@ -18,6 +18,18 @@
     margin: 0 auto;
     padding-top: 64px;
   }
+  &_animated {
+    // animation-name: heartbeat;
+    // animation-duration: 1.5s;
+    // animation-timing-function: ease;
+    // animation-iteration-count: infinite;
+    
+    /*Комбинированная (краткая) запись свойства animated*/
+    animation: heartbeat 1.5s ease infinite;
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
   }
   &__header {
     margin: 0;
