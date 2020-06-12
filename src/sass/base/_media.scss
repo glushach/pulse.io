@@ -310,6 +310,27 @@ line-height: 27px;
     font-size: 9px;
     margin: 0 4px;
   }
+  &-item {/**/
+    width: 280px;
+    padding: 13px 11px 14px 11px;
+    &__descr {
+      font-size: 12px;
+    }
+    &__old-price {
+      font-size: 14px;
+      line-height: 14px;
+    }
+    &__price {
+      font-size: 17px;
+      line-height: 17px;
+    }
+    &__list {/**/
+      li {
+        font-size: 13px;
+        word-spacing: 0px;
+      }
+    }
+  }
 }
 
 .comments {
