@@ -1,38 +1,30 @@
 {
-  "name": "project_5_bootstrap",
+  "name": "pulse",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glushach/uber.io.git"
+    "url": "git+https://github.com/glushach/pulse.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/glushach/uber.io/issues"
+    "url": "https://github.com/glushach/pulse.io/issues"
   },
-  "homepage": "https://github.com/glushach/uber.io#readme",
+  "homepage": "https://github.com/glushach/pulse.io#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^2.2.1",
+    "gulp-cli": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0"
-  },
-  "dependencies": {
-    "gulp": "^4.0.2"
-  },
-  "browserslist": [
-    "defaults",
-    "not IE 11",
-    "not IE_Mob 11",
-    "maintained node versions"
-  ]
+  }
 }
